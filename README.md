@@ -2,6 +2,10 @@
 
 Kanban board apps - helps to manage tasks and projects efficiently.
 
+## Deployed Website
+
+- View it here https://kanban-board-ebon.vercel.app
+
 ## Methodology
 
 - Used 'useContext' hook for centralized state management, to keep the track of the choice of user for sorting and grouping
