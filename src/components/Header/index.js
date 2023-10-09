@@ -14,7 +14,9 @@ const Header = ({ grouping, pn, value, number, online }) => {
           <div className="avatar shift">
             <div
               className={
-                online ? "avatar-indicator-on" : "avatar-indicator-off"
+                online
+                  ? "avatar-indicator avatar-on"
+                  : "avatar-indicator avatar-off"
               }
             ></div>
             <span className="avatar-initial">{getInitials(value)}</span>

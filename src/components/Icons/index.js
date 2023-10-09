@@ -38,10 +38,10 @@ export const getStatusIcon = (value) => {
       return <Clock5 size={16} strokeWidth={3} color="orange" />;
     case "Done":
       return (
-        <CheckCircle2 size={21} strokeWidth={2.8} color="white" fill="blue" />
+        <CheckCircle2 size={21} strokeWidth={2.8} color="blue" absoluteStrokeWidth={true}/>
       );
     case "Cancelled":
-      return <XCircle size={20} color="white" strokeWidth={2} fill="grey" />;
+      return <XCircle size={20}  color="grey" strokeWidth={2.8} />;
     default:
       return <Plus size={20} color="#949494" strokeWidth={3} />;
   }

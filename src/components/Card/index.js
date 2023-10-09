@@ -19,7 +19,9 @@ function Card({ tickets, user }) {
           <div className="avatar">
             <div
               className={
-                user.available ? "avatar-indicator-on" : "avatar-indicator-off"
+                user.available
+                  ? "avatar-indicator avatar-on"
+                  : "avatar-indicator avatar-off"
               }
             ></div>
             <span className="avatar-initial">{getInitials(user.name)}</span>
