@@ -1,0 +1,53 @@
+.header {
+    margin: 10px 4px 12px 4px;
+}
+
+.flexBox {
+    display: flex;
+    vertical-align: middle;
+    justify-content: space-between;
+}
+
+.icon {
+    align-items: center;
+    display: flex;
+    margin-right: 7px;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 2px;
+    vertical-align: middle;
+}
+
+.numbersOfCard {
+    font-size: 16px;
+    color: #7D7C7C;
+    margin-left: 12px;
+    font-weight: 500;
+}
+
+.btn {
+    background-color: transparent;
+    border: none;
+    padding: 0%;
+    line-height: 2%;
+    margin-left: 8px;
+    color: #7D7C7C;
+    cursor: pointer;
+}
+
+.shift {
+    margin-right: 4px;
+}
+
+.btn:hover {
+    transform: scale(1.3);
+    color: orange;
+
+}
+
+.btn:active {
+    transform: scale(0.95);
+}

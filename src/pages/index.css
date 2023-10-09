@@ -1,0 +1,25 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+    grid-gap: 4px;
+    width: 100%; 
+}
+
+.card-wrapper {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 4px;
+}
+
+@media screen and (max-width: 1024px) {
+    .wrapper {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}

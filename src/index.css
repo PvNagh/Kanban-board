@@ -5,9 +5,52 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(231, 232, 237, 0.799);
+}
+
+.avatar {
+  width: 21px;
+  height: 21px;
+  background-color: #ccc;
+  border-radius: 50%;
+  position: relative;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: #f7567c;
+}
+
+.avatar-indicator-on {
+  position: absolute;
+  bottom: -1px;
+  right: 0;
+  width: 6.5px;
+  height: 6.5px;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  background-color: #00ff00;
+}
+
+.avatar-indicator-off {
+  position: absolute;
+  bottom: -1px;
+  right: 0;
+  width: 6.5px;
+  height: 6.5px;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  background-color: #ccc;
+}
+
+.avatar-initial {
+  font-weight: 400;
+  font-size: 12px;
+  color: white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
