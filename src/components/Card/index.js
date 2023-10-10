@@ -41,7 +41,7 @@ function Card({ tickets, user }) {
           </div>
         )}
         <div className="footer-box">
-          <Dot strokeWidth={10} />
+          <Dot strokeWidth={9} />
           {tag.map((tagItem, index) => (
             <span key={index}>{tagItem}</span>
           ))}

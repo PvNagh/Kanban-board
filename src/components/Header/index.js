@@ -23,7 +23,7 @@ const Header = ({ grouping, pn, value, number, online }) => {
           </div>
         )}
         {grouping === "status" && (
-          <div className="icon">{getStatusIcon(value)}</div>
+          <div className="icon stat">{getStatusIcon(value)}</div>
         )}  
         <div className="flexBox">
           <span className="title">{value}</span>
