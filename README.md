@@ -1,6 +1,6 @@
 # Kanban Board
 
-Kanban board apps - helps to manage tasks and projects efficiently.
+Kanban board app - helps to manage tasks and projects efficiently.
 
 ## Deployed Website
 
